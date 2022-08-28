@@ -1,16 +1,6 @@
 // Global Variables
-//coloHex api global variable
-// let colorSelected = document.getElementById('color-selected')
-// let color = colorSelected.value
-// let colorHex = color.slice(1)
-// // color scheme global variable 
-// let select = document.getElementById('color-scheme-selector')
-// let colorScheme = select.options[select.selectedIndex].value
 let footer = document.getElementById('footer')
 let colorContainer = document.getElementById('color-container')
-
-
-
 
 //run api call for color and scheme when btn is clicked 
 let submitBtn = document.getElementById('submit-btn')
