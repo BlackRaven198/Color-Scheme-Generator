@@ -52,34 +52,6 @@ render()
 
 
 
-// unused code
-// colorSelected.addEventListener("input", function () {
-//     let code = colorSelected.value;
-//     console.log(code)
-// })
-//color api practice fetch
-// fetch('https://www.thecolorapi.com/id?hex=0047AB')
-//     .then((response) => response.json())
-//     .then((data) => console.log(data))
 
 
 
-//Grab Color selected by user
-
-// colorSelected.addEventListener("input", function() {
-//     console.log(colorSelected.value)
-//     //send the colorHex to the api
-//     fetch(`https://www.thecolorapi.com/id?hex=${colorHex}`)
-//     .then((response) => response.json())
-//     .then((data) => console.log(data))
-// })
-// grab the color scheme options selected 
-//listen for the select to change
-// select.addEventListener('change', function() {
-//     console.log(this.value)
-//     let schemeValue = this.value
-//     console.log(schemeValue)
-//     fetch(`https://www.thecolorapi.com/scheme?hex=${colorHex}&&mode=${schemeValue}`)
-//         .then((response) => response.json())
-//         .then((data) => console.log(data))
-// })
