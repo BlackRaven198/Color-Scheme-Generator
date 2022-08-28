@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 
 <body>
-    <div>
+    <div class="title">
         <h1> Color Scheme Generator Project</h1>
     </div>
 
@@ -18,11 +18,28 @@
 
         <div class="nav-bar">
             <div id="color-picker"></div>
-            <div id="dropdown-menu"></div>
+                <input id="color-selected" type="color" value="#8426c7"/>
+            <div id="dropdown-menu"></div>  
+                <select id="color-scheme-selector">
+
+                    <option value="monochrome">Monochrome</option>
+
+                    <option value="">Select your option</option>
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome Dark</option>
+                    <option value="monochrome-light">Monochrome Light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-comlement">Analogic Compliment</option>
+                    <option value="triad">Triad</option>
+                    <option value="quad">Quad</option>
+
+                </select>
             <div id="get-color-btn"></div>
+                <button id="submit-btn">Get color scheme</button>
         </div>
 
-        <div class="color-container">
+        <div class="color-container" style>
             <div id="color1"></div>
             <div id="color2"></div>
             <div id="color3"></div>
@@ -30,12 +47,14 @@
             <div id="color5"></div>
         </div>
 
-        <div class="footer">
+        <div class="footer" id="footer">
+            <!-- 
+                    --These were converted over to Javascript as .innerHTML +=   --
             <div id="color-code1"></div>
             <div id="color-code2"></div>
             <div id="color-code3"></div>
             <div id="color-code4"></div>
-            <div id="color-code5"></div>
+            <div id="color-code5"></div> -->
         </div>
 
     </div>
